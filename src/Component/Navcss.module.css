@@ -1,0 +1,1499 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+.logo{
+  display: flex;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 150px;
+  background-color: #1e40af; 
+  color: #ffffff;            
+  position: none;          
+  /* top: 0;                     */
+  /* z-index: 50;                */
+  /* box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1); */
+}
+.logo>div{
+
+  width: 50%;
+}
+.aaa1{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;   
+  padding-right: 1rem;
+  padding-top: 1rem;    
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;   
+  padding-top: 2%;
+  padding-left: 4%;
+}
+.aaa1>h1{
+  padding-top: 1%;
+}
+.aaa1>nav{
+  padding-top: 2.5%;
+}
+#abcd2{
+    height: 80px;
+    padding-top: 60px;
+    padding-left: 360px;
+}
+#abcd2>div>input{
+    border-radius: 12px;
+    height: 40px;
+    width: 270px;
+    border-color: blue;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 4rem;
+    background-color: yellowgreen;
+    /* background-color: blue; */
+    box-shadow: 0px 3px 4px black;
+}
+#nav>div{
+    background-color: blue;
+    width: 12.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav>div:hover{
+     background-color: green;   
+}
+.na{
+    color: white;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.na:hover{
+    color: black;
+}
+#logo2{
+    font-size: x-large;
+    display: flex;
+    margin-top: 1.5%;
+}
+#l25{
+    width: 100%;
+    color: green;
+    text-align: center;
+}
+#l25>h1{
+  padding-top: 20px; 
+}
+
+#j{
+    margin-top: 2.5%;
+    width: 100%;
+}
+#job{
+    margin-top: 1.2%;
+    justify-content: space-around;
+    display: flex;
+    width: 77%;
+    margin-left: 11.5%;
+}
+.job1{
+    background: linear-gradient(to left ,rgb(2, 65, 88),rgb(107, 203, 248));
+    
+    width: 24%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 2px 3px 4px black;
+    text-align: center;
+   border-radius: 5px;
+}
+.job2{
+    text-align: center;
+    background: linear-gradient(to left ,rgb(87, 1, 90),rgb(247, 116, 236));
+    border-radius: 5px;
+    width: 24%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 2px 3px 4px black;
+    
+}
+.job1:hover{
+    background: linear-gradient(to left, blue, red);
+    box-shadow: 3px 4px 4px black;
+    transform: scale(1.05);
+ }
+.job2:hover{
+     background: linear-gradient(to right, blue, red);
+     box-shadow: 2px 4px 4px black;
+     transform: scale(1.05);
+ }
+.job3{
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#con1{
+    width: 77%;
+    height: auto;
+    margin-left: 11.5%;
+    margin-top: 3%;
+    
+}
+#con1>div{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    
+}
+#con1>div>div{
+    width: 32.7%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid  rgb(3, 31, 122);
+    box-shadow: 1px 3px 3px  rgb(3, 31, 122);
+    background-color:white;
+    border-radius: 4px;
+}
+#con1>div>div>h1{
+  font-size: 28px;
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    /* background: linear-gradient(to left, blue, red); */
+    background-color: rgb(3, 31, 122);
+}
+#con2{
+    height: auto;
+    padding-left: 15px;
+    
+}
+#con2>ul{
+  padding-left: 6px;
+  
+}
+#con2>ul>li{
+    width: 300px;
+    margin-top: 5%;
+}
+#con2>ul>li>a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#con2>ul>li>a:hover{
+    color: blue;
+    transform: scale(1.1);
+}
+#con3{
+  height: auto;
+  padding-left: 15px;
+  
+}
+#con3>ul{
+padding-left: 6px;
+
+}
+#con3>ul>li{
+  width: 300px;
+  margin-top: 5%;
+}
+#con3>ul>li>a{
+text-decoration: none;
+color: black;
+font-size: large;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+#con3>ul>li>a:hover{
+  color: blue;
+  transform: scale(1.1);
+}
+#view{
+  
+    height: 35px;
+    padding-top: 0.5%;
+    margin-left: 65%;
+    margin-top: 22%;  
+    margin-right: 5%;
+    margin-bottom: 7%;
+    border-radius: 5px;
+     border: 1px solid blue;
+    background-color: rgb(60, 129, 60);
+    box-shadow: 2px 3px 3px black;
+}
+#view:hover{
+   border: 1px solid black;
+      background-color: rgb(244, 247, 89);
+      box-shadow: 2px 3px 3px blue;
+}
+.view1{
+  font-size: 17px;
+    font-style: italic;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2px;
+}
+.view1:hover{
+    color: black;
+}
+#logo1{
+    width: 100%;
+}
+#logo1>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    height: auto;
+    width: 100%;
+   
+}
+
+#logo1>div>div{
+  font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 14.5%;
+    height: 50px;
+    margin-left: 0.60%;
+    margin-right: 0.60%;
+    padding-top: 12px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: 19px;
+    background: linear-gradient(to left ,rgb(3, 25, 146),rgb(86, 173, 253));
+}
+#logo1>div>div:hover{
+    box-shadow: 3px 4px 4px black;
+    background: linear-gradient(to right, rgb(75, 78, 255), rgb(189, 27, 253));
+    transform: scale(1.05);
+}
+#ab3{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+}
+#ab3>div>section{
+    height: 2px;
+    width: 99.6%;
+    background-color: black;
+    box-shadow: inset 1px 0px 5px black;
+}
+#footer{
+    background-color:  #f3f4f6;
+    padding-bottom: 20px;
+    height: auto;
+    display: flex;
+}
+#footer>div{
+  background-color:  #f3f4f6;
+    height: auto;
+    width: 33%;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding-left: 40px;
+}
+#footer>div>div>p{
+    margin-top: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer>div>div>div{
+  
+  margin-top: 1.5%;
+  font-size: 18px;
+}
+#des{
+  width: 100%;
+  margin-top: 50px;
+}
+#des>h1{
+  padding: 7px;
+  width: 100%;
+  color: white;
+  background-color: rgb(65, 115, 253);
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#des>div{
+  border: 2px solid rgb(84, 136, 248);
+  padding-bottom: 2%;
+  margin-top: 1.5%;
+  border-radius: 5px;
+}
+#des>div>h1{
+  padding: 4px;
+  color: white;
+  background-color: rgb(80, 110, 247);
+  text-align: center;
+  margin-bottom: 25px;
+}
+#des>div>h3{
+  padding-bottom: 7px;
+   padding-left: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#des>div>li{
+  padding-left: 130px;
+  padding-top: 8px;
+}
+.marqueecontainer {
+      width: 100%;
+      height: 35px; 
+      position: relative; 
+      overflow: hidden;
+      
+}
+.marquee1 {
+    display: flex;
+    position: absolute; 
+    white-space: nowrap; 
+    animation: scroll 14s linear infinite;
+  }
+.marquee2 {
+  display: flex;
+  position: absolute;
+  white-space: nowrap;
+  animation: scroll 15s linear infinite;
+}
+.marquee3 {
+  display: flex;
+  position: absolute;
+  white-space: nowrap;
+  animation: scroll 16s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    right: 20%; 
+  }
+  50% {
+    right: -10%; 
+  }
+  100% {
+      right: 20%; 
+  }
+}
+.marquee1:hover {
+  transform: scale(1.1);
+  animation-play-state: paused;
+}
+.marquee2:hover {
+  transform: scale(1.1);
+  animation-play-state: paused;
+}
+.marquee3:hover {
+  transform: scale(1.1);
+  animation-play-state: paused;
+}
+.animation1{
+  font-size: large;
+  font-weight: bold;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding: 3.5px;
+  background: linear-gradient(to right, red,blue,green);
+  background-clip: text;
+  color: transparent;
+   /* color: rgb(43, 29, 29); */
+
+}
+.animation1>b{
+    padding-left: 2px;
+    padding-right: 4px;
+    color: black;
+    
+}
+.animation2{
+   display: flex;
+   justify-content: center;
+    align-items: center;  
+     font-size: 22px;
+     font-weight: bolder;
+     padding: 15px;
+    
+}
+.animation2>a{
+  
+  color: green;
+    padding-right: 2%;
+}
+.animation2>p{
+   font-size: 35px;
+  color: rgb(255, 0, 179);
+    padding-right: 2%;
+}
+
+
+.movingtextcontainer {
+  width: 100%; 
+  height: 50px; 
+  position: relative;
+  overflow: hidden; 
+  background-color: #f0f0f0; 
+}
+
+
+.movingtext {
+  display: flex;
+  position: absolute; 
+  white-space: nowrap; 
+  animation: movebackforth 12s linear infinite; 
+}
+
+@media (min-width: 768px) {
+  .aaa1>nav {
+    display: flex; /* Display as flex on medium screens and above */
+    gap: 1rem; /* space between items (equivalent to space-x-4) */
+  }
+}
+
+@media (min-width: 768px) {
+  .aaa1 {
+    font-size: 1.5rem;
+  }
+}
+.footer {
+  background-color: #1e3a8a; /* Tailwind's blue-800 */
+  color: #ffffff; /* Tailwind's white */
+  padding-top: 2rem; /* Tailwind's py-8 */
+  padding-bottom: 2rem;
+}
+
+.footercontainer {
+  
+  max-width: 1280px; /* Tailwind's container */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* Tailwind's px-4 */
+  padding-right: 1rem;
+  text-align: center; /* Tailwind's text-center */
+}
+
+.footertitle {
+  font-size: 1.25rem; /* Tailwind's text-xl */
+  font-weight: 700; /* Tailwind's font-bold */
+}
+
+.footerdescription {
+  margin-top: 0.5rem; /* Tailwind's mt-2 */
+}
+
+.footersociallinks {
+  margin-top: 1rem; /* Tailwind's mt-4 */
+  display: flex; /* Tailwind's flex */
+  justify-content: center; /* Tailwind's justify-center */
+  gap: 1rem; /* Tailwind's space-x-4 */
+}
+
+.footer-social-link {
+  color: #ffffff; /* Inherit from parent (text-white) */
+  text-decoration: none;
+}
+
+.footer-social-link:hover {
+  color: #93c5fd; /* Tailwind's blue-300 */
+}
+
+.footercopyright {
+  margin-top: 1rem; /* Tailwind's mt-4 */
+}
+.icon1{
+  width: 45px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo{
+    width: 100%;
+    height: 65px;
+  }
+  .logo>div{
+    width: 50%;
+  }
+    .aaa1>h1{
+      font-size: 17px;
+      padding-top: 15px;
+    }
+  #abcd2{
+    padding-top: 25px;
+    padding-left: 100px;
+  }
+   #nav{
+   height: 30px;
+   }
+   #abcd2>div>input{
+    font-size: 7px;
+    border-radius: 12px;
+    height: 20px;
+    width: 80px;
+    border-color: blue;
+}
+   
+   .na{
+    font-size: 7px;
+    text-align: center;
+   }
+   #nj{
+    /* padding-top: 1px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 10px; */
+    /* width: 80px; */
+   }
+   
+   #l25>h1{
+    padding-top: 15px;
+     font-size: 18px;
+    }
+   #l25>h2{
+    font-size: 12px;
+  }
+  #logo1{
+    width: 100%;
+    padding: 5px;
+  }
+  #logo1>div{
+    padding-top: 12px;
+    width: 100%;
+  }
+  #logo1>div>h1{
+    padding-top: 10px;
+    font-size: 8px;
+  }
+  #logo1>div>div{
+    width: 19%;
+    font-size: 8px;
+    height: 25px;
+    padding-top: 5px;
+  }
+  #j{
+    padding-top: 0px;
+    margin: 0;
+    width: 98%;
+    padding-top: 5px;
+  }
+  #job{
+    padding-top:5px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .job1{
+    height: 35px;
+    margin-left: 6px;
+    width: 24%;
+  }
+  .job2{
+    width: 24%;
+    margin-left: 6px;
+    height: 35px;
+  }
+  .job3>h2{
+    font-size: 8px;
+    text-align: center;
+  }
+  #con1{
+    padding-top: 10px;
+    width: 100%;
+    margin: 0;
+    
+  }
+  #con1>div{
+    padding: 2px;
+  }
+ 
+  #con1>div>div>h1{
+    height: 30px;
+    padding: 0;
+    padding-top: 7px;
+    font-size: 10.5px;
+  }
+
+  #con2{
+    padding-left: 10px;
+    
+    
+  }
+  #con2>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con2>ul>li>a{
+    
+    font-size: 8px;
+  }
+  #con3{
+    padding-left: 10px;
+    
+  }
+  #con3>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con3>ul>li>a{
+    font-size: 8px;
+  }
+  #view{
+    /* position: relative; */
+    margin-top: 50px;
+    margin-left: 55%;
+    height: 20px;
+    width: 50px;
+    font-size: 8px;
+  }
+  
+  #ab3{
+    margin-top: 20px;
+  }
+  #footer>div{
+    padding-left: 30px;
+    width: 32%;
+  }
+  #footer>div>h1{
+    font-size: 15px;
+  }
+  #footer>div>p{
+    font-size: 8px;
+  }
+  #footer>div>div{
+    font-size: 8px;
+  }
+  #footer>div>div>div{
+    font-size: 10px;
+  }
+  #footer>div>div>h1{
+    font-size: 15px;
+  }
+  .footertitle{
+    font-size: 20px;
+  }
+  .footerdescription{
+    font-size: 12px;
+  }
+  .footercopyright{
+    font-size: 11px;
+  }
+  .view1{
+    padding-top: 2px;
+    font-size: 8.7px;
+  }
+  #des{
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+  }
+  #des>h1{
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  #des>div>h1{
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  #des>div>h3{
+    font-size: 9px;
+    padding-bottom: 4px;
+  }
+  #des>div>li{
+    padding-left: 60px;
+    font-size: 7px;
+
+  }
+  .marqueecontainer {
+    height: 13px;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  
+  .animation1{
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .animation2{
+    padding: 0;
+
+  }
+  @keyframes scroll {
+    0% {
+      right: 20%; 
+    }
+    50% {
+      right: -10%; 
+    }
+    100% {
+        right: 20%; 
+    }
+  }
+  .animation2>p{
+  
+      padding-right: 5px;
+      padding-left: 5px;
+      font-size: 15px;
+      }
+.icon1{
+  width: 18px;
+  height: 18px;
+}
+  }
+
+
+@media (max-width: 767px) and (min-width: 481px) {
+    .logo{
+    width: 100%;
+    height: 90px;
+  }
+  .logo>div{
+    width: 50%;
+  }
+    .aaa1>h1{
+      font-size: 24px;
+      padding-top: 16px;
+    }
+  #abcd2{
+    padding-top: 39px;
+    padding-left: 61%;
+  }
+   #nav{
+   height: 37px;
+   }
+   #abcd2>div>input{
+    font-size: 12px;
+    border-radius: 12px;
+    height: 25px;
+    width: 97px;
+    border-color: blue;
+}
+   
+   .na{
+    font-size: 9px;
+    text-align: center;
+   }
+   #nj{
+    /* padding-top: 1px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 10px; */
+    /* width: 80px; */
+   }
+   
+   #l25>h1{
+    padding-top: 16px;
+     font-size: 22px;
+    }
+   #l25>h2{
+    font-size: 14px;
+  }
+  #logo1{
+    width: 100%;
+    padding: 5px;
+    
+  }
+  #logo1>div{
+    
+    padding-top: 15px;
+    width: 100%;
+  }
+  #logo1>div>h1{
+    padding-top: 10px;
+    font-size: 8px;
+  }
+  #logo1>div>div{
+    width: 19%;
+    font-size: 10px;
+    height: 30px;
+    padding-top: 7px;
+  }
+  #j{
+    padding-top: 0px;
+    margin: 0;
+    width: 98%;
+    padding-top: 8px;
+  }
+  #job{
+    padding-top:6px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .job1{
+    height: 35px;
+    margin-left: 6px;
+    width: 24%;
+  }
+  .job2{
+    width: 24%;
+    margin-left: 6px;
+    height: 35px;
+  }
+  .job3>h2{
+    font-size: 10px;
+    text-align: center;
+  }
+  #con1{
+    padding-top: 15px;
+    width: 100%;
+    margin: 0;
+    
+  }
+  #con1>div{
+    padding: 2px;
+  }
+ 
+  #con1>div>div>h1{
+    height: 35px;
+    padding: 0;
+    padding-top: 8px;
+    font-size: 15px;
+  }
+
+  #con2{
+    height: auto;
+    padding-left: 10px;
+    
+    
+  }
+  #con2>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con2>ul>li>a{
+    
+    font-size: 11px;
+  }
+  #con3{
+    height: auto;
+    padding-left: 10px;
+    
+    
+  }
+  #con3>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con3>ul>li>a{
+    font-size: 11px;
+  }
+  #view{
+    margin-top: 90px;
+    margin-left: 65%;
+    height: 22px;
+    width: 53px;
+    font-size: 9px;
+  }
+  
+  #ab3{
+    margin-top: 20px;
+  }
+  #footer>div{
+    padding-left: 30px;
+    width: 32%;
+  }
+  #footer>div>h1{
+    font-size: 18px;
+  }
+  #footer>div>div>p{
+    font-size: 11px;
+  }
+  #footer>div>div{
+    font-size: 8px;
+  }
+  #footer>div>div>div{
+    font-size: 12px;
+  }
+  #footer>div>div>h1{
+    font-size: 20px;
+  }
+  .footertitle{
+    font-size: 22px;
+  }
+  .footerdescription{
+    font-size: 16px;
+  }
+  .footercopyright{
+    font-size: 13px;
+  }
+  .view1{
+    padding-top: 2px;
+    font-size: 10px;
+  }
+  #des{
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+  }
+  #des>h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #des>div>h1{
+    font-size: 20px;
+    margin-bottom: 17px;
+  }
+  #des>div>h3{
+    font-size: 13px;
+    padding-bottom: 4px;
+  }
+  #des>div>li{
+    padding-left: 60px;
+    font-size: 12px;
+
+  }
+  .marqueecontainer{
+    height: 20px;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%
+    
+  }
+  .marquee1{
+
+  }
+  
+  .animation1{
+    font-size: 11px;
+    font-weight: bold;
+    
+  }
+  @keyframes scroll {
+    0% {
+      right: 20%; 
+    }
+    50% {
+      right: -10%; 
+    }
+    100% {
+        right: 20%; 
+    }
+  }
+  .animation2{
+       font-size: 8px;
+  
+  }
+  .animation2>p{
+      font-size: 18px;
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+  .icon1{
+    width: 21px;
+    height: 21px;
+  }
+  
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+      .logo{
+    width: 100%;
+    height: 130px;
+  }
+  .logo>div{
+    width: 50%;
+  }
+    .aaa1>h1{
+      font-size: 35px;
+      padding-top: 10px;
+    }
+  #abcd2{
+    padding-top: 55px;
+    padding-left: 63%;
+  }
+   #nav{
+   height: 45px;
+   }
+   #abcd2>div>input{
+    font-size: 12px;
+    border-radius: 12px;
+    height: 30px;
+    width: 140px;
+    border-color: blue;
+}
+   
+   .na{
+    font-size: 15px;
+    text-align: center;
+   }
+   #nj{
+    /* padding-top: 1px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 10px; */
+    /* width: 80px; */
+   }
+   
+   #l25>h1{
+    padding-top: 20px;
+     font-size: 35px;
+    }
+   #l25>h2{
+    font-size: 24px;
+  }
+  #logo1{
+    width: 100%;
+    padding: 5px;
+    
+  }
+  #logo1>div{
+    
+    padding-top: 25px;
+    width: 100%;
+  }
+  #logo1>div>h1{
+    padding-top: 20px;
+    font-size: 8px;
+  }
+  #logo1>div>div{
+    width: 19%;
+    font-size: 16px;
+    padding-top: 13px;
+  }
+  #j{
+    padding-top: 0px;
+    margin: 0;
+    width: 98%;
+    padding-top: 18px;
+  }
+  #job{
+    padding-top:9px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .job1{
+    height: 60px;
+    margin-left: 7px;
+    width: 24%;
+  }
+  .job2{
+    width: 24%;
+    margin-left: 7px;
+    height: 60px;
+  }
+  .job3>h2{
+    font-size: 15px;
+    text-align: center;
+  }
+  #con1{
+    padding-top: 20px;
+    width: 100%;
+    margin: 0;
+    
+  }
+  #con1>div{
+    padding: 2px;
+  }
+ 
+  #con1>div>div>h1{
+    height: 50px;
+    padding: 0;
+    padding-top: 11px;
+    font-size: 25px;
+  }
+
+  #con2{
+    height: auto;
+    padding-left: 10px;
+    
+    
+  }
+  #con2>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con2>ul>li>a{
+    
+    font-size: 15px;
+  }
+  #con3{
+    height: auto;
+    padding-left: 10px;
+    
+    
+  }
+  #con3>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con3>ul>li>a{
+    font-size: 15px;
+  }
+  #view{
+    margin-top: 90px;
+    margin-left: 70%;
+    height: 28px;
+    width: 70px;
+    font-size: 14px;
+  }
+  .view1{
+    padding-top: 1px;
+    font-size: 14px;
+  }
+  #ab3{
+    margin-top: 35px;
+  }
+  #footer>div{
+    padding-left: 30px;
+    width: 32%;
+  }
+  #footer>div>h1{
+    font-size: 18px;
+  }
+  #footer>div>div>p{
+    font-size: 15px;
+  }
+  #footer>div>div{
+    font-size: 20px;
+  }
+  #footer>div>div>div{
+    font-size: 18px;
+  }
+  #footer>div>div>h1{
+    font-size: 27px;
+  }
+  .footertitle{
+    font-size: 22px;
+  }
+  .footerdescription{
+    font-size: 15px;
+  }
+  .footercopyright{
+    font-size: 13px;
+  }
+  
+  #des{
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+  }
+  #des>h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  #des>div>h1{
+    font-size: 25px;
+    margin-bottom: 17px;
+  }
+  #des>div>h3{
+    font-size: 13px;
+    padding-bottom: 4px;
+  }
+  #des>div>li{
+    padding-left: 60px;
+    font-size: 14px;
+
+  }
+  .marqueecontainer{
+    height: 30px;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%
+    
+  }
+  .marquee1{
+
+  }
+  
+  .animation1{
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+  @keyframes scroll {
+    0% {
+      right: 20%; 
+    }
+    50% {
+      right: -10%; 
+    }
+    100% {
+        right: 20%; 
+    }
+  }
+  .animation2{
+       font-size: 8px;
+  
+  }
+  .animation2>b{
+  
+      padding-right: 5px;
+      padding-left: 5px;
+      }
+ .animation2>p{
+  font-size: 25px;
+  }
+.icon1{
+  width: 30px;
+  height: 30px;
+}
+  }
+  
+
+@media (max-width: 1300px) and (min-width: 1024px) {
+      .logo{
+    width: 100%;
+    height: 140px;
+  }
+  .logo>div{
+    width: 50%;
+  }
+    .aaa1>h1{
+      font-size: 40px;
+      padding-top: 9px;
+    }
+  #abcd2{
+    padding-top: 60px;
+    padding-left: 63%;
+  }
+   #nav{
+   height: 52px;
+   }
+   #abcd2>div>input{
+    font-size: 15px;
+    border-radius: 12px;
+    height: 35px;
+    width: 185px;
+    border-color: blue;
+}
+   
+   .na{
+    font-size: 18px;
+    text-align: center;
+   }
+   #nj{
+    /* padding-top: 1px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: 10px; */
+    /* width: 80px; */
+   }
+   
+   #l25>h1{
+    padding-top: 25px;
+     font-size: 40px;
+    }
+   #l25>h2{
+    font-size: 30px;
+  }
+  #logo1{
+    width: 100%;
+    padding: 5px;
+    
+  }
+  #logo1>div{
+    
+    padding-top: 25px;
+    width: 100%;
+  }
+  #logo1>div>h1{
+    padding-top: 20px;
+    font-size: 8px;
+  }
+  #logo1>div>div{
+    width: 19%;
+    font-size: 18px;
+    height: 50px;
+    padding-top: 13px;
+  }
+  #j{
+    padding-top: 0px;
+    margin: 0;
+    width: 98%;
+    padding-top: 18px;
+  }
+  #job{
+    padding-top:9px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .job1{
+    height: 55px;
+    margin-left: 7px;
+    width: 24%;
+  }
+  .job2{
+    width: 24%;
+    margin-left: 7px;
+    height: 55px;
+  }
+  .job3>h2{
+    font-size: 18px;
+    text-align: center;
+  }
+  #con1{
+    padding-top: 20px;
+    width: 100%;
+    margin: 0;
+    
+  }
+  #con1>div{
+    padding: 3px;
+  }
+ 
+  #con1>div>div>h1{
+    height: 50px;
+    padding: 0;
+    padding-top: 11px;
+    font-size: 25px;
+  }
+
+  #con2{
+    height: auto;
+    padding-left: 10px;
+    
+    
+  }
+  #con2>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con2>ul>li>a{
+    
+    font-size: 16px;
+  }
+  #con3{
+    height: auto;
+    padding-left: 10px;
+    
+    
+  }
+  #con3>ul>li{ 
+    font-weight: normal;
+    font-size: 9px;
+    width: 99%;
+  }
+  #con3>ul>li>a{
+    font-size: 16px;
+  }
+  #view{
+    margin-top: 90px;
+    margin-left: 70%;
+    height: 33px;
+    width: 81px;
+    font-size: 14px;
+  }
+  .view1{
+    padding-top: 1px;
+    font-size: 15px;
+  }
+  #ab3{
+    margin-top: 45px;
+  }
+  #footer>div{
+    padding-left: 30px;
+    width: 32%;
+  }
+  #footer>div>h1{
+    font-size: 18px;
+  }
+  #footer>div>div>p{
+    font-size: 16px;
+  }
+  #footer>div>div{
+    font-size: 20px;
+  }
+  #footer>div>div>div{
+    font-size: 19px;
+  }
+  #footer>div>div>h1{
+    font-size: 28px;
+  }
+  .footertitle{
+    font-size: 25px;
+  }
+  .footerdescription{
+    font-size: 16px;
+  }
+  .footercopyright{
+    font-size: 14px;
+  }
+  
+  #des{
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+  }
+  #des>h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  #des>div>h1{
+    font-size: 27px;
+    margin-bottom: 17px;
+  }
+  #des>div>h3{
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+  #des>div>li{
+    padding-left: 60px;
+    font-size: 15px;
+
+  }
+  .marqueecontainer{
+    height: 30px;
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%
+    
+  }
+  .marquee1{
+
+  }
+  
+  .animation1{
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  @keyframes scroll {
+    0% {
+      right: 20%; 
+    }
+    50% {
+      right: -10%; 
+    }
+    100% {
+        right: 20%; 
+    }
+  }
+  .animation2{
+       font-size: 18px;
+  
+  }
+  .animation2>b{
+  
+      padding-right: 5px;
+      padding-left: 5px;
+  }
+  
+
+ .animation2>p{
+  font-size: 28px;
+  }
+.icon1{
+  width: 37px;
+  height: 37px;
+}
+}

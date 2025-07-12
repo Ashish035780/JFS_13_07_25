@@ -1,0 +1,54 @@
+/* Base ad container styling */
+#ad-300x250,
+#ad-468x60,
+#ad-160x300,
+#ad-320x50,
+#ad-160x600,
+#ad-728x90,
+#container-6bca5f4a0d6861332151c7d1878e1879,
+#ad-profitablerate2,
+#ad-profitablerate3,
+#ad-profitablerate4 {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Optional: Add a general class to all ad containers if needed */
+.ad-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 480px) {
+  #ad-300x250,
+  #ad-728x90 {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #ad-320x50 {
+    width: 100% !important;
+  }
+
+  iframe {
+    max-width: 100% !important;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 768px) {
+  #ad-728x90 {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+}
